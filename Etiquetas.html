@@ -4,14 +4,54 @@
   <head>
      <meta charset="utf-8"/>
      <meta name="description" content="Etiquetas básicas">   
-     <title>Elementos de texto</title>
+     <title>Elementos de una WEB</title>
   </head>
 
   <body>
       <!--<header>Cabecera</header>-->
       <h1>TITULO</h1>
-      <!--Ruta relativa-->
-      <img alt="Logo de la web" src="c:\Users\amalo\OneDrive\Documents\GitHub\HTML\img">
+      <h2>Subtitulo</h2>
+      
+      <!--IMAGENES-->
+      <!--Ruta absoluta-->
+      <img height="500px" width="500px" alt="Logo de la web" src="c:\Users\amalo\OneDrive\Documents\GitHub\HTML\img\logo.png">
+      
+      <!--Ruta relativa
+      <img alt="Logo de OpenWebinars" src="img/openwebinars-logo.jpg">
+      --- Ruta absoluta 
+      <img alt="Logo de OpenWebinars" src="/home/pekechis/public_html/openwebinars_iniciacion_html_css/Parte_III_Aniadiendo_contenido_Etiquetas_Basicas/examples/img/openwebinars-logo.jpg">
+      -- Ruta URL 
+      <img alt="Logo de OpenWebinars" src="https://www.linuxadictos.com/wp-content/uploads/openwebinars-logo.jpg">
+      --Si modifico una dimensión se respetan las proporciones
+      <img height="50px" alt="Logo de OpenWebinars" src="img/openwebinars-logo.jpg">
+      <img width="50px" alt="Logo de OpenWebinars" src="img/openwebinars-logo.jpg">
+      --Si pongo ambas dimensiones puedo modificar las proporciones
+      <img height="300px" width="100px" alt="Logo de OpenWebinars" src="img/openwebinars-logo.jpg">
+      -->
+
+      <!--FIGURE-->
+      <!--Asociar imagen con leyenda-->
+      <figure>
+         <img height="500px" width="500px" alt="Logo de la web" src="c:\Users\amalo\OneDrive\Documents\GitHub\HTML\img\logo.png">
+         <figcaption>Logo de la empresa de abogados</figcaption>
+      </figure>      
+
+      <!--ENLACES-->   
+      <p><a href="https://www.baladoabogado.es/">Esto es un enlace en la propia página</a></p>
+      <p><a href="https://www.baladoabogado.es/" target="_blank">Esto es un enlace en una nueva página</a></p>
+      <!--Haciendo que una imagen sea un enlace-->
+      <a href="https://www.baladoabogado.es/"><img height="500px" width="500px" alt="Logo de la web" src="c:\Users\amalo\OneDrive\Documents\GitHub\HTML\img\logo.png">
+      <!--ENLACE INTERNO-->
+      <!--
+         ...
+         <a href="#contacto">Contacto</a>
+         ...
+         <section id="contacto">
+         ....
+         </section>
+         ....
+      -->
+      
       
    </body>
 
